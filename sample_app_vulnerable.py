@@ -31,5 +31,6 @@ def delete_user(user_id):
 if __name__ == "__main__":
     create_user("alice", "training-only-password")
     print("Lookup:", lookup_user("alice"))
+    print("Injection-shaped lookup (shows the flaw):", lookup_user("' OR '1'='1' -- "))
     print("Login:", login("alice", "training-only-password"))
     print("This sample is intentionally vulnerable and for local training only.")
