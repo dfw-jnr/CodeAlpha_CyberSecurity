@@ -1,30 +1,28 @@
 # CodeAlpha Cyber Security Tasks
 
-This project completes two items from the supplied internship task sheet:
+This student project covers two tasks from the internship sheet:
 
-1. **Task 2 - Phishing Awareness Training:** `phishing_awareness.html` is a self-contained browser lesson with warning signs, a realistic training example, safe-response steps, and an interactive quiz.
-2. **Task 3 - Secure Coding Review:** `secure_coding_review.md` documents a manual review of the intentionally vulnerable `sample_app_vulnerable.py`, the fixes in `sample_app_secure.py`, and a repeatable verification checklist.
+1. **Task 2 - Phishing Awareness Training:** `phishing_awareness.html` is a self-contained lesson with a sample message, practical response steps, and a short interactive quiz.
+2. **Task 3 - Secure Coding Review:** `secure_coding_review.md` explains a manual review of `sample_app_vulnerable.py` and the fixes shown in `sample_app_secure.py`.
 
-## Run the lesson
+## Open the training lesson
 
-Open `phishing_awareness.html` in a current browser. It needs no install, server, or network connection for the lesson and quiz. Source links at the bottom need internet access.
+Open `phishing_awareness.html` in a current browser. The lesson and quiz work locally without installing anything. The reference links at the bottom need an internet connection.
 
 ## Run the sample apps
 
-Both sample programs use only Python's standard library. Run either from this directory:
+Both scripts use Python's standard library. From this folder, run:
 
 ```powershell
 python sample_app_vulnerable.py
 python sample_app_secure.py
 ```
 
-The sample creates `training.db` in its working directory and prints a small demonstration. The vulnerable version is intentionally unsafe. Use only with disposable training data; do not expose it to a network or use real credentials. The secure version uses parameterized SQL and PBKDF2 password hashes. Neither script is a production web application or a substitute for a full security assessment.
+Each script uses its own local SQLite file. The vulnerable version is included to show the review findings. Keep it on a local machine with disposable training data; do not put it on a public server or use real passwords. The corrected example shows safer query, password, and authorization patterns, but it is not a production-ready login system.
 
-## Suggested repository name
+## Submission notes
 
-`CodeAlpha_CyberSecurity`
-
-Before submitting, replace the author line in the report if desired, create your own GitHub repository, upload the project files, and paste its URL in the official submission form. The internship sheet also asks participants to post an internship status and a project video on LinkedIn; those are personal account actions for you to complete.
+The suggested repository name is `CodeAlpha_CyberSecurity`. Before submission, add your name to the report if your instructor expects it. The internship sheet also asks for a project video on LinkedIn and submission through the CodeAlpha form; complete those steps using your own account.
 
 ## References
 
