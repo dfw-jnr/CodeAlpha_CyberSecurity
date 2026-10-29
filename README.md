@@ -1,9 +1,10 @@
 # CodeAlpha Cyber Security Tasks
 
-This student project covers two tasks from the internship sheet:
+This student project covers three tasks from the internship sheet:
 
 1. **Task 2 - Phishing Awareness Training:** `phishing_awareness.html` is a self-contained lesson with a sample message, practical response steps, and a short interactive quiz.
 2. **Task 3 - Secure Coding Review:** `secure_coding_review.md` explains a manual review of `sample_app_vulnerable.py` and the fixes shown in `sample_app_secure.py`.
+3. **Task 4 - Network Intrusion Detection System:** `Task4_Network_IDS/` contains passive Suricata alert rules, a synthetic offline PCAP lab, an EVE JSON alert watcher, and a human-review response playbook.
 
 ## Open the training lesson
 
